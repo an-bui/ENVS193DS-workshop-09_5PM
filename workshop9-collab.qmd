@@ -51,7 +51,13 @@ For every one unti increase in latitude, we expect to see an increase in crab si
 
 model statistics: F(1,390) = 208.5, p < 0.0001, alpha = 0.05, R^2^ = 0.35
 
+General tips for collaboration:  
+1. ALWAYS SAVE AND COMMIT AND PUSH!!!!!! do this often!!!!!!!!!!!!  
+2. TALK TO YOUR COLLABORATORS  
+3. PULL CHANGES!!!!!!!! otherwise you will get a "merge conflict"  
 
+order of operations:
+pull, work, save, stage, commit, push
 
 
 
