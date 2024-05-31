@@ -18,6 +18,14 @@ reading in data:
 data(pie_crab) # reading in plum island ecosystem crab data set from lterdatasampler package
 ```
 
+exploratory vis
+
+```{r}
+ggplot(aes(x= latitude, y = size), data= pie_crab) + # set up plot
+  geom_point(color = "orange") + # scatterplot, and make it orange
+  labs(x = "Latitude", y = "Size (mm)") + # update axes labels
+  theme_minimal() # remove gridlines by updating theme
+```
 
 
 
